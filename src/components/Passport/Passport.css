@@ -1,0 +1,141 @@
+.passport-container{
+    margin-top:60px;
+}
+.passport{
+    background: #101128;
+    border-radius: 10px;
+}
+.passport-info{
+    background: #101128;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+.passport-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.passport-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.passport-info>div>button{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #E9D500;
+    background: rgba(233, 213, 0, 0.1);
+    border: none;
+    height: 42px;
+    width: 201px;
+    border-radius: 5px;
+}
+.passport-info>div>h3{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #D9EAFF;
+}
+
+.passport-from{
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+.passport-from>div>select{
+    margin-top: 20px;
+}
+.passport-from>div>input{
+    margin-top: 20px;
+}
+.passport-from>div{
+    margin-left: 30px;
+}
+.passport>div>p{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    color: rgba(217, 234, 255, 0.8);
+    opacity: 0.6;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.passport-img{
+    margin-top: 20px;
+    background: #212342;
+    border-radius: 10px;
+    height: 148.48484802246094px;
+    width: 214.80807495117188px;
+    position: relative;
+    margin-left: 30px;
+}
+.passport-img>div{
+    position: relative;
+    width: 58.99px;
+    height: 58.99px;
+    background: #282C53;
+    box-shadow: 1px 8px 60px rgba(41, 127, 217, 0.1);
+    border-radius:50%;
+    text-align: center;
+    top:46px;
+    left:75px
+}
+.passport-img>div>img{
+    margin-top:18px
+}
+.passport-img-info{
+    display: flex;
+    margin-top: 20px;
+    margin-left:30px;
+}
+.passport-img-info>p{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(217, 234, 255, 0.4);
+    margin-right: 30px;
+}
+.passport-btn-section{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+.passport-btn-section>button{
+    width: 161px;
+    height: 56px;
+    border: 1px solid rgba(233, 213, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+.passport-btn-section>button:first-child{
+    background:rgba(16, 17, 40, 1);
+    margin-right: 20px;
+    color: #E9D500;
+}
+.passport-btn-section>button:last-child{
+    background:#E9D500;
+    color: #101128;
+}
+
+.passport-btn-section>button:last-child>a{
+    width: 100%;
+    text-decoration: none;
+    color: #101128;
+}
+.passport-btn-section>button:first-child>a{
+    width: 100%;
+    text-decoration: none;
+    color: #E9D500;
+}

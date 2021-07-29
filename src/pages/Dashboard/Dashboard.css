@@ -1,0 +1,23 @@
+.dashboard{
+    width:100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 1487px;
+    grid-gap: 30px;
+    position: relative;
+}
+.navbar-container{
+    position: fixed;
+    z-index: 9;
+}
+.all-pages-container{
+    z-index: 0.1;
+    position: absolute;
+    left:330px;
+    width: 1487px;
+    display: grid;
+    grid-template-columns: 858px 629px;
+    grid-gap:30px;
+    position: relative;
+    margin-top: 50px;
+}

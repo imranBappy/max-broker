@@ -1,0 +1,54 @@
+.profile-info-container{
+    background: #101128;
+    border-radius: 10px;
+}
+.profile-info-container>h3{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #D9EAFF;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+.profile-info-container>.profile-pic>div{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.profile-info-container>.profile-pic>div>label{
+    cursor: pointer;
+}
+.profile-info-container>.profile-pic>input{
+    display: none;
+}
+.profile-from>div{
+    width:100%;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding:4px 20px 20px 20px;
+    grid-gap:20px;
+}
+.profile-from>div>div{
+    margin: 2px;
+}
+/* .profile-from>div>div> */
+/* .profile-from>div>div> */
+.profile-from>div>div>label{
+    margin-bottom: 15px;
+}
+/* .profile-from>div>div> */
+.profile-from>button{
+    
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.profile-from>button>a{
+    text-decoration: none;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #101128;
+}

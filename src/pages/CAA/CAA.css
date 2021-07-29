@@ -1,0 +1,64 @@
+.caa-container{
+    margin-top: 60px;
+}
+.caa{
+    display: grid;
+    grid-template-columns: 454px 454px;
+    grid-gap: 30px;
+}
+.caa-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.caa>div>h3{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #D9EAFF;
+    margin-bottom: 20px;
+}
+.caa>div{
+    background: #101128;
+    border-radius: 10px;
+    padding: 40px;
+}
+.pdf-icon{
+    background: #212342;
+    border-radius: 10px;
+    padding: 58px;
+    height: 220.74746704101562px;
+    width: 223px;
+}
+.caa-btn{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background: #272849;
+    border-radius: 10px;
+    height: 55px;
+    margin-top: 20px;
+}
+.caa-btn>button{
+    background: #272849;
+    border: none;
+    border-radius: 10px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(217, 234, 255, 0.8);
+    cursor: pointer;
+}
+.caa-btn>div>img{
+    height: 20.30785369873047px;
+    width: 22px;
+    margin-top: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.caa-btn>div{
+    display: flex;
+    justify-content: flex-end;
+}

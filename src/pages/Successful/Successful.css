@@ -1,0 +1,67 @@
+.successful-container{
+    margin-top: 50px;
+}
+.successful{
+    background: #101128;
+    border-radius: 10px;
+    padding: 40px
+}
+.successful-head{
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.successful-head>div>h3{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #D9EAFF;
+}
+.successful-head>div:last-child{
+    display:flex;
+    justify-content: flex-end;
+}
+.successful-head>div:last-child>button{
+    background: rgba(233, 213, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+}
+.successful-head>div:last-child>button{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #E9D500;
+    padding:5px;
+    cursor: pointer;
+    width: 201px;
+    height: 42px;
+}
+.successful-img{
+    text-align: center;
+}
+.successful-img>img{
+    margin-top: 100px;
+}
+
+.successful>p{
+    margin-top:20px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(217, 234, 255, 0.8);
+    opacity: 0.6;
+}
+.successful-button{
+    margin-top:60px;
+    text-align: center
+}
+.successful-button>button>a{
+    text-decoration: none;
+    color: #101128;
+}

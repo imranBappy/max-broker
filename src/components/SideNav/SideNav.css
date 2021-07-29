@@ -1,0 +1,117 @@
+.side-navbar{
+    width: 100%;
+    background: rgba(16, 17, 40, 1);
+    height: 1000px;
+}
+.logo{
+    padding:40px 10px 0px 50px;
+}
+.profile{
+    padding:40px 10px 0px 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.profile>div>img{
+    width:99px;
+    height:99px;
+    background: #2D1634;
+    border-radius: 5%;
+}
+.profile>div>p{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 15px;
+}
+.user-info{
+    padding:10px 10px 0px 50px;
+    margin-bottom: 50px;
+}
+.user-info>h3{
+    font-family: GT Walsheim Pro;
+    font-weight: 1200;
+    font-size: 21px;
+    line-height: 128.33%;
+    color: aliceblue;
+}
+.user-info>p{
+    margin-top:5px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 128.33%;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.user-info>h3>span{
+    font-family: GT Walsheim Pro;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 128.33%;
+    color: #E8D400;
+}
+.link-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px 40px 160px 50px  ;
+    cursor: pointer;
+    margin-top: 13px;
+}
+.link-active{
+    position: relative;
+    height: 50px;
+}
+.link-active>img{
+    position: absolute;
+    top:-3px
+}
+.link-container>.link-left-side>img{
+    width: 16.67px;
+    height: 16.67px;
+}
+.link-container>.link-right-side>a{
+    color: aliceblue ;
+    text-decoration: none;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px; 
+}
+.profile-dropdown-menu{
+    height: 50px;
+    transition:0.5s
+}
+
+.profile-dropdown-menu>ul{
+    display:none;
+    list-style: none;
+}
+.profile-dropdown-menu>ul>li{
+    margin-top: 18px;
+}
+
+.profile-dropdown-menu>ul>li{
+    display: flex;
+}
+.profile-dropdown-menu>ul>li>a{
+    text-decoration: none;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(217, 234, 255, 0.8);
+    margin-left: 15px;
+}
+.profile-dropdown-menu>ul>li>img{
+    width: 18px;
+    height: 18px;
+}

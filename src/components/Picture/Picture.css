@@ -1,0 +1,115 @@
+.picture-component{
+    width: 100%;
+    background: #101128;
+    border-radius: 10px;
+    padding:50px
+}
+.picture-top-var{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.picture-top-var>div>h3{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #D9EAFF;
+}
+.picture-top-var>div:last-child{
+    display:flex;
+    justify-content: flex-end;
+}
+.picture-top-var>div:last-child>button{
+    width: 201px;
+    height: 42px;
+    background: rgba(233, 213, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #E9D500;
+}
+.picture-component>p{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    color: rgba(217, 234, 255, 0.8);
+    opacity: 0.6;
+    margin-top:35px;
+}
+.picture-img{
+    margin-top: 40px;
+    width: 150px;
+    height: 148.48px;
+    background: #212342;
+    border-radius: 10px;
+    position: relative;
+}
+.picture-img>div{
+    position:absolute;
+    top:45px;
+    left:45px;
+    width: 58.99px;
+    height: 58.99px;
+    background: #282C53;
+    box-shadow: 1px 8px 60px rgba(41, 127, 217, 0.1);
+    border-radius: 50%;
+}
+.picture-img>div>img{
+    margin-top:18px;
+    margin-left:18px
+}
+.picture-img-info{
+    display: flex;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(217, 234, 255, 0.4);
+    margin-top: 30px;
+}
+.picture-img-info>p{
+    margin-right: 35px;
+}
+.picture-btn-bottom{
+    margin-top:50px;
+}
+.picture-btn-bottom>button{
+    width: 161px;
+    height: 56px;
+    border: 1px solid rgba(233, 213, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+.picture-btn-bottom>button:first-child{
+    background:rgba(16, 17, 40, 1);
+    margin-right: 20px;
+    color: #E9D500;
+}
+.picture-btn-bottom>button:last-child{
+    background:#E9D500;
+    color: #101128;
+}
+.picture-btn-bottom>button:last-child>a{
+    width: 100%;
+    text-decoration: none;
+    color: #101128;
+}
+.picture-btn-bottom>button:first-child>a{
+    width: 100%;
+    text-decoration: none;
+    color: #E9D500;
+}

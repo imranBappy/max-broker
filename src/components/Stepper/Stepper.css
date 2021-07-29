@@ -1,0 +1,157 @@
+/* Simple setup for this demo */
+.stepper{
+  background: #101128;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+}
+.stepper>h3{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #D9EAFF;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.mdl-card {
+  width: 100%;
+  min-height: 0;
+  margin: 10px auto;
+}
+
+.mdl-card__supporting-text {
+  width: 100%;
+  padding: 0;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step {
+  width: 20%;
+}
+
+
+
+.mdl-stepper-horizontal-alternative {
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step {
+  display: table-cell;
+  position: relative;
+  padding: 14px;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:hover,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:active {
+  background-color: rgba(0, 0, 0, .06);
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:active {
+  border-radius: 15% / 75%;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:first-child:active {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:last-child:active {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:hover .mdl-stepper-circle {
+  background-color: #757575;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:first-child .mdl-stepper-bar-left,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:last-child .mdl-stepper-bar-right {
+  display: none;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-circle {
+  height: 43px;
+  width: 43px;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2em;
+  font-size: 12px;
+}
+.mdl-stepper-title{
+  font-family: GT Walsheim Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.active-step .mdl-stepper-circle {
+   background: rgba(39, 40, 73, 1);
+}
+
+.mdl-stepper-circle{
+  margin-right: 30px;
+}
+.stepper-profile-icon{
+  margin-top: 11px;
+}
+.stepper-passport-icon{
+  margin-top: 14.9px;
+}
+.stepper-camera-icon{
+  margin-top: 14.9px;
+}
+.stepper-signature-icon{
+  margin-top: 11.5px;
+}
+.stepper-successful-icon{
+  margin-top: 14px;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-title {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-title {
+  text-align: center;
+  color: rgba(0, 0, 0, .26);
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.active-step .mdl-stepper-title {
+  font-weight: 500;
+  color: rgba(0, 0, 0, .87);
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.active-step.step-done .mdl-stepper-title,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step.active-step.editable-step .mdl-stepper-title {
+  font-weight: 300;
+}
+
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-bar-left,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-bar-right {
+  position: absolute;
+  top: 36px;
+  height: 3px;
+  background: rgba(39, 40, 73, 1);
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-bar-right {
+  right: 0;
+  left: 53%;
+  margin-left: 20px;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-bar-left {
+  left: 0;
+  right: 53%;
+  margin-right: 20px;
+}

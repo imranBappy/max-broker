@@ -1,0 +1,73 @@
+.total-income{
+    margin-top:50px;
+    height: 105px;
+    width: 858px !important;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    background: #101128;
+    border-radius: 7px;
+}
+.total-income-left{
+    display:flex;
+    padding:20px
+}
+.total-income-right{
+    display:flex;
+    justify-content: flex-end;
+}
+.total-income-icon{
+    width: 52px;
+    height: 52px;
+    background: #202247;
+    border-radius: 3px;
+}
+.total-income-icon>img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.total-income-left>.total-income-text>h5{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 128.33%;
+    color: #D9EAFF;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.total-income-left>.total-income-text>p{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 128.33%;
+    color: #D9EAFF;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.total-income-right>.total-income-balance>h5{
+    font-family: GT Walsheim Pro;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 128.33%;
+    text-align: center;
+    color: #D9EAFF;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.total-income-right>.total-income-detailed>button{
+    border: 1px solid #33355B;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 128.33%;
+    text-align: center;
+    color: rgba(217, 234, 255, 0.8);
+    background: rgba(11, 12, 31, 1);
+    padding:8px 10px;
+    margin-right: 20px;
+    margin-top: 32px;
+    cursor: pointer;
+}

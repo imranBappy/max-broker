@@ -1,0 +1,31 @@
+.user-container{
+    width:100%;
+    background: #101128;
+    border-radius: 7px;
+    padding:30px
+}
+.user-container>h1{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #D9EAFF;
+    margin-bottom: 20px;
+}
+.user-btn-container>button{
+    width: 115px;
+    height: 42px;
+    cursor: pointer;
+    background: #1B1C37;
+    border-radius: 7px 7px 0px 0px;
+    border: none;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #E9D500;
+    margin-right: 5px;
+}
+/*  */

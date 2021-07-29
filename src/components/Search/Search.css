@@ -1,0 +1,39 @@
+.search-container{
+    width: 858px;
+}
+.search-container>div{
+    background: #101128;
+    box-shadow: 0px 4px 40px rgba(33, 132, 250, 0.02);
+    border-radius: 10px;
+    width: 359px;
+    position: relative;
+    height: 53px;
+}
+.search-container>div>input{
+    position: absolute;
+    background: #101128;
+    border: none;
+    width: 85%;
+    right:0;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.search-container>div>input::placeholder{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 128.33%;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.search-container>div>input:focus {
+    outline:none;
+}
+.search-container>div>img{
+    position: absolute;
+    top:13.5px;
+    left: 10px;
+}

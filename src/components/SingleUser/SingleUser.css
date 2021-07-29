@@ -1,0 +1,42 @@
+.single-user{
+    background: #1B1C37;
+    border-radius: 0px 7px 7px 7px;
+    width:100%;
+    display: grid;
+    grid-template-columns:100px 359px 100px;
+    height:110px;
+}
+.single-user>.user-pic>img{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.single-user-info{
+    margin-top:25px
+}
+.single-user-info>h3{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #D9EAFF;
+}
+.single-user-info>p{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(217, 234, 255, 0.5);
+}
+.single-user-balance{
+    margin-top:30px
+}
+.single-user-balance>h5{
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(217, 234, 255, 0.8);
+}

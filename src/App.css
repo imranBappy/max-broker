@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+input{
+    width: 100%;
+    background: #272849;
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+    padding: 10px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    color: rgba(217, 234, 255, 0.8);
+}
+label{
+    display:block;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    color: rgba(217, 234, 255, 0.8);
+    opacity: 0.6;
+}
+input:focus{
+    outline:none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+select{
+    width: 100%;
+    background: #272849;
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+    padding: 10px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    color: rgba(217, 234, 255, 0.8);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+    background: #E9D500;
+    border-radius: 10px;
+    height: 50px;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #101128;
+    border:none;
+    padding:10px 20px;
+    cursor: pointer;
+    margin:15px 0px;
 }
