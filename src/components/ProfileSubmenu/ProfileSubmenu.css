@@ -1,0 +1,30 @@
+.profile-dropdown-menu{
+    height: 50px;
+    transition:0.5s
+}
+
+.profile-dropdown-menu>ul{
+    display:none;
+    list-style: none;
+}
+.profile-dropdown-menu>ul>li{
+    margin-top: 18px;
+}
+
+.profile-dropdown-menu>ul>li{
+    display: flex;
+}
+.profile-dropdown-menu>ul>li>a{
+    text-decoration: none;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: rgba(217, 234, 255, 0.8);
+    margin-left: 15px;
+}
+.profile-dropdown-menu>ul>li>img{
+    width: 18px;
+    height: 18px;
+}

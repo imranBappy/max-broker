@@ -23,7 +23,7 @@ const Successful = () => {
                 <p> We Will review your message and get back to you shortly.</p>
                 <div className='successful-button'>
                     <button className='btn'>
-                        <Link to='/dashboard'>
+                        <Link to='/'>
                             Back to Dashboard
                         </Link>
                     </button>
